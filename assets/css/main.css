@@ -260,7 +260,7 @@
 	}
 
 	#bg {
-		background-size: 2250px auto;
+		background-size: 2250px 100%;
 		width: 6750px;
 	}
 
@@ -764,7 +764,7 @@
 		}
 
 		#bg {
-			background-size: 1500px auto;
+			background-size: 1500px 100%;
 			width: 4500px;
 		} }
 
@@ -932,7 +932,7 @@
 		}
 
 		#bg {
-			background-size: 300px auto;
+			background-size: 300px 100%;
 			width: 900px;
 		}
 
@@ -1030,7 +1030,7 @@
 		}
 
 		#bg {
-			background-size: 412.5px auto;
+			background-size: 412.5px 100%;
 			width: 1237.5px;
 		}
 
