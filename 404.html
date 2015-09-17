@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="refresh" content="7; url=http://whelamc.github.io/">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Whelam</title>
+	<meta name="description" content="Do it by myself">
+	<meta name="keywords" content="Personal">
+	<meta name="author" content="Whelam">
+	<style type="text/css">
+		body,html{
+	        width:100%;
+	        height:100%;
+	        margin:0px;
+	        padding:0px;
+	        border:0px;
+
+		}
+		body > section {
+		    background:url('http://i979.photobucket.com/albums/ae279/guangdouzi/caprice_zpsn3rozzz8.jpg') no-repeat center center ;
+            background-attachment: fixed;
+		    -webkit-background-size:cover;
+		    -moz-background-size:cover;
+		    -o-background-size:cover;
+		    background-size:cover;
+		    width: 100%;
+		    margin:0;
+		    height: 100%;
+		    position:relative;
+		}
+		.container {
+			width:50%;
+			height:50%;
+			margin: 0 auto;
+			overflow:hidden;
+            position:absolute;
+            left:0;
+            bottom:0;
+            right:0;
+		}
+        h1 , h2{
+            font-family: 'microsoft yahei',Arial,sans-serif;
+	        color:#ffffff;
+	        text-align:center;
+            vertical-align:middle;
+        }
+	</style>
+	<script type="text/javascript">
+	function countDown(secs, surl) {
+		var jumpTo = document.getElementById('jumpTo');
+		jumpTo.innerHTML = secs;
+		if (--secs > 0) {
+			setTimeout("countDown(" + secs + ",'" + surl + "')", 1000);
+		} else {
+			location.href = surl;
+		}
+	}
+	</script>
+</head>
+<body>
+	<section>
+		<div class="container">
+			<h1>404</h1>
+			<h2>wrong page <span id="jumpTo">5</span> will back to home</h2>
+		</div>
+	</section>
+	<script type="text/javascript">countDown(5,'http://whelamc.github.io/');</script>
+</body>
+</html>
