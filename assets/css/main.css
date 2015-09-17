@@ -685,6 +685,9 @@
 		text-align: center;
 		width: 100%;
 	}
+	#footer .hidden {
+		color: #000000;
+	}
 
 /* Wide */
 
