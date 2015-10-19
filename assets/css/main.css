@@ -16,7 +16,7 @@
 		font-size: 100%;
 		font: inherit;
 		vertical-align: baseline;
-        cursor: url( https://www.anotherhome.net/wp-content/themes/Amativeness/images/cursor.ico), auto;
+
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -49,6 +49,9 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	body {
+		cursor: url( https://raw.githubusercontent.com/whelamc/whelamc.github.io/master/pointer.png), auto;
+	}
 /* Box Model */
 
 	*, *:before, *:after {
